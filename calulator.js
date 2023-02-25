@@ -23,6 +23,12 @@ Array.from(btn).forEach((button) =>{
             result = result + button.innerHTML;
             screen.value = result;
         }
+        button.style.backgroundColor = "white";
+        button.style.color = "#191825"
+        setTimeout(() => 
+        {button.style.backgroundColor = "#191825" 
+         button.style.color = "white"} ,100)
+
     })
 }
 )

@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title></title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="/calculator.css" />
-  </head>
-  <body>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title></title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/calculator.css" />
+</head>
+
+<body>
+  <div class="wrapper">
     <div class="calculator">
-      <input type="text" value="0"  class="screen" readonly disabled/>
+      <input type="text" value="0" class="screen" readonly disabled />
       <form>
         <!-- top -->
-        <button class="btn" type="button" >C</button>
+        <button class="btn" type="button">C</button>
         <button class="btn" type="button">/</button>
         <button class="btn" type="button">*</button>
         <button class="btn" type="button">Del</button>
@@ -40,10 +43,13 @@
         <!-- bottom row -->
         <button class="btn" type="button">0</button>
         <button class="btn" type="button">.</button>
-        <button class="btn equal" type="button">=</button>
+        <button class="btn" type="button">=</button>
+        <button class="btn" type="button">:3</button>
         <!-- bottom row -->
       </form>
     </div>
-    <script src="/calulator.js" async defer></script>
-  </body>
+  </div>
+  <script src="/calulator.js" async defer></script>
+</body>
+
 </html>
